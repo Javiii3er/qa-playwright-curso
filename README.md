@@ -30,3 +30,6 @@ Ejecución en terminal con los 3 tests en verde (passed):
 Reporte HTML de Playwright:
 
 ![Reporte de Playwright](./playwright-report.png)
+
+
+
