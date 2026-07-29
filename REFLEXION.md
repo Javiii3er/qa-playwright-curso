@@ -35,3 +35,6 @@ equipo en toda la suite de pruebas.
 ## Evidencia de los tests pasando (Clase 2)
 
 ![Tests pasando - terminal](./evidencias/06-terminal-tests-pasando.png)
+
+## Evidencia de los tests pasando (Clase 3)
+![Tests pasando - terminal](./evidencias/07-terminal-clase03-tests-pasando.png)
