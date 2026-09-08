@@ -4,12 +4,14 @@ from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   timeout: 30 * 1000,
-  reporter: [['list'], ['html', { open: 'never' }]],
+  retries: 1,
+  reporter: [['list'], ['html', {outputFolder: 'playwright-report', open: 'never' }]],
   use: {
     baseURL: 'https://www.demoblaze.com/',
-    headless: false,
-    screenshot: 'only-on-failure',
-    video: 'retain-on-failure',
+    headless: true,
+    screenshot:'on', // 'on' | 'off' |only-on-failure',
+    video:'on', // 'on' | 'off' |only-on-failure',
+    trace: 'on', // 'on' | 'off' |only-on-failure',
   },
   projects: [{name: 'chromium', 
     use: { ...devices['Desktop Chrome'] }}],
