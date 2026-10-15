@@ -31,5 +31,8 @@ Reporte HTML de Playwright:
 
 ![Reporte de Playwright](./playwright-report.png)
 
-
-
+## Defectos reportados (Clase 11)
+- **BR-CLASE11-001** - Imágenes rotas en /broken-images: asdf.jpg y hjkl.jpg responden 404.
+  - Issue: https://github.com/Javiii3er/qa-playwright-curso/issues/1
+  - Reporte: [reportes/bug-report-clase11.md](./reportes/bug-report-clase11.md)
+  - Test que lo documenta: `tests/clase11.spec.ts` (tag `@bug`, usa `test.fail()`)
